@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "name",
+        "Description": "The name of the DNS PTR Record.",
+        "Type": "string",
+        "Default": "n/a",
+        "Required": "yes",
+        "Support": []
+    },
+    {
+        "Name": "tags",
+        "Description": "A mapping of tags to assign to the resource.",
+        "Type": "map(string)",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    },
+    {
+        "Name": "ttl",
+        "Description": "The Time To Live (TTL) of the DNS record in seconds.",
+        "Type": "number",
+        "Default": "n/a",
+        "Required": "yes",
+        "Support": []
+    },
+    {
+        "Name": "records",
+        "Description": "List of Fully Qualified Domain Names.",
+        "Type": "list(string)",
+        "Default": "n/a",
+        "Required": "yes",
+        "Support": []
+    }
+]
