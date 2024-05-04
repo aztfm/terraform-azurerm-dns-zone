@@ -1,0 +1,58 @@
+[
+    {
+        "Name": "email",
+        "Description": "The email contact for the SOA record.",
+        "Type": "string",
+        "Default": "n/a",
+        "Required": "yes",
+        "Support": []
+    },
+    {
+        "Name": "tags",
+        "Description": "A mapping of tags to assign to the Record Set.",
+        "Type": "map(string)",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    },
+    {
+        "Name": "expire_time",
+        "Description": "The expire time for the SOA record.",
+        "Type": "number",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    },
+    {
+        "Name": "minimum_ttl",
+        "Description": "The minimum Time To Live for the SOA record. By convention, it is used to determine the negative caching duration.",
+        "Type": "number",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    },
+    {
+        "Name": "refresh_time",
+        "Description": "The refresh time for the SOA record.",
+        "Type": "number",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    },
+    {
+        "Name": "retry_time",
+        "Description": "The retry time for the SOA record.",
+        "Type": "number",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    },
+    {
+        "Name": "ttl",
+        "Description": "The Time To Live of the SOA Record in seconds.",
+        "Type": "number",
+        "Default": "null",
+        "Required": "no",
+        "Support": []
+    }
+]

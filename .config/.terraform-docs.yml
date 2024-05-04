@@ -48,6 +48,17 @@ content: |
     {{ print "|" (ternary .Required "yes" "no") "|" }}
   {{ end }}{{ printf "\n" -}}
 
+  {{ template "table" dict "Resource" "soa_record" "File" ".config/soa_record_parameters.json" }}
+  {{ template "table" dict "Resource" "a_records" "File" ".config/a_record_parameters.json" }}
+  {{ template "table" dict "Resource" "aaaa_records" "File" ".config/aaaa_record_parameters.json" }}
+  {{ template "table" dict "Resource" "cname_records" "File" ".config/cname_record_parameters.json" }}
+  {{ template "table" dict "Resource" "mx_records" "File" ".config/mx_record_parameters.json" }}
+  {{ template "table" dict "Resource" "mx_records.records" "File" ".config/mx_records_record_parameters.json" }}
+  {{ template "table" dict "Resource" "ptr_records" "File" ".config/ptr_record_parameters.json" }}
+  {{ template "table" dict "Resource" "srv_records" "File" ".config/srv_record_parameters.json" }}
+  {{ template "table" dict "Resource" "srv_records.records" "File" ".config/srv_records_record_parameters.json" }}
+  {{ template "table" dict "Resource" "txt_records" "File" ".config/txt_record_parameters.json" }}{{ printf "\n" -}}
+
   ## Outputs
 
   The following outputs are exported:

@@ -1,0 +1,18 @@
+[
+    {
+        "Name": "preference",
+        "Description": "String representing the preference value of the MX records. Records with lower preference value take priority.",
+        "Type": "number",
+        "Default": "n/a",
+        "Required": "yes",
+        "Support": []
+    },
+    {
+        "Name": "exchange",
+        "Description": "The mail server responsible for the domain covered by the MX record.",
+        "Type": "string",
+        "Default": "n/a",
+        "Required": "no",
+        "Support": []
+    }
+]
